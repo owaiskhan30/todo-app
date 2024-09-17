@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 100px 0;
+    font-family: "Sofadi One", system-ui;
+}
+.main {
+    background: #3A0030;
+    padding: 50px;
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+.main h1 {
+    margin: 0;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main input#text {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    font-family: 'Sofadi One';
+}
+.main > button {
+    background: #fff;
+    border: 1px solid #fff;
+    width: 19%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Sofadi One';
+}
+.main ol {
+    color: #fff;
+    padding-left: 40px;
+}
+.main ol button {
+    background: transparent !important;
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+.main ol li {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.main ol li:last-child {
+    margin: 0;
+}
+.main ol li span {
+    float: right;
+}
+
+
+@media screen and (max-width: 767px) {
+    .main {
+        width: 90%;
+        padding: 40px 20px 50px;
+    }
+    .main input#text {
+        width: 100%;
+    }
+    .main > button {
+        width: 100%;
+    }
+}
